@@ -8,9 +8,9 @@ NSNotificationCenter的封装，使用方便，并且不用考虑释放的问题
 # 使用方法
 
 ### 接收通知
-    [self addObserverForName:NotifyMsg_BPopANoti block:^(NSNotification * _Nullable note) {'Do Something'}];
+    [self addObserverForName:@"name" block:^(NSNotification * _Nullable note) {'Do Something'}];
 ### 发送通知
-    [self postNotificationName:'name' object:'object' userInfo:'userInfo'];
+    [self postNotificationName:@"name" object:@"object" userInfo:@"userInfo"];
 
 # 优点
     两句话就可以
