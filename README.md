@@ -1,0 +1,2 @@
+# NotificationHelper
+NSNotificationCenter的封装，使用方便，并且不用考虑释放的问题
